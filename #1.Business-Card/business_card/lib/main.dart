@@ -17,24 +17,35 @@ class MyApp extends StatelessWidget {
           color: Colors.green[800],
           child: ListView(
             children: <Widget>[
+              // Business Photo
               Image.asset("assets/piedpiper_header.png"),
+
+              // Business Tagline 1 - Text Widget wrapped in Container
               aboutBusiness(
                   text: "Go Small or Go Home",
                   textSize: 24,
                   fontWeight: FontWeight.bold),
+              
+              // Business Tagline 2 - Text Widget wrapped in Container
               aboutBusiness(
                   text:
                       "A Middle-out Compression Solution to make Data Storage Problems smaller. We take compression to a new level with Weissman Score of 5.2",
                   textSize: 20,
                   fontStyle: FontStyle.italic),
+
+              // Horizontal Divider
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 4),
                 child: Divider(
                   color: Colors.white,
                 ),
               ),
+              
+              // Business Contact 1 - ListTile widget wrapped in Container
               contactBusiness(
                   text: "piedpiper.com", url: _busniessUrl, icon: Icons.public),
+                  
+              // Business Contact 2 - ListTile widget wrapped in Container
               contactBusiness(
                   text: "5230 Penfield Ave, Woodland Hills, CA",
                   url: _businessLocation,

@@ -1,16 +1,19 @@
-# business_card
+# Business Card
 
-This application is a business card for PiedPiper, a Start-Up (Fictional Business) from TV show Silicon Valley
+Design and implement a single screen app that displays information about a fictional small business.
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+This application is a business card for PiedPiper, a Start-Up (Fictional Business) from TV show [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series))
 
-A few resources to get you started if this is your first Flutter project:
+## App Screenshot
+<img width="300" src="assets/app-screenshot.png" alt="PiedPiper - Single Screen App [App Screenshot]" />
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+## Medium Post
+<a href="https://medium.com/@piedcipher/building-abnd-project-1-single-screen-app-with-flutter-e3dd8a55f70"><img src="assets/medium-post.png" alt="Medium Post - Feature Image" /></a>
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+## Credits
+| Drawable | Author | Source |
+| --- | --- | --- |
+| [piedpiper_header.png](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/PiedPiper/app/src/main/res/drawable/piedpiper_header.png) |  [skubie-doo](https://www.reddit.com/r/SiliconValleyHBO/comments/6bd9xg/request_can_anyone_make_that_pied_piper_green/dhnc1hb) |  [Source](https://i.imgur.com/AiQS7TRg.png)|

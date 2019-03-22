@@ -16,4 +16,4 @@ This application is a business card for PiedPiper, a Start-Up (Fictional Busines
 ## Credits
 | Drawable | Author | Source |
 | --- | --- | --- |
-| [piedpiper_header.png](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/PiedPiper/app/src/main/res/drawable/piedpiper_header.png) |  [skubie-doo](https://www.reddit.com/r/SiliconValleyHBO/comments/6bd9xg/request_can_anyone_make_that_pied_piper_green/dhnc1hb) |  [Source](https://i.imgur.com/AiQS7TRg.png)|
+| [piedpiper_header.png](https://github.com/piedcipher/ABND-Projects-Flutter/blob/master/%231.Business-Card/business_card/assets/piedpiper_header.png) |  [skubie-doo](https://www.reddit.com/r/SiliconValleyHBO/comments/6bd9xg/request_can_anyone_make_that_pied_piper_green/dhnc1hb) |  [Source](https://i.imgur.com/AiQS7TRg.png)|

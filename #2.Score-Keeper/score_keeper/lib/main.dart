@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(Game());
+void main() => runApp(MyApp());
 
 final String appName = "Clash Of Cupheads";
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: appName,
+      color: Colors.yellow[500],
+      home: Game(),
+    );
+  }
+}
 
 class Game extends StatefulWidget {
   @override
@@ -23,32 +34,28 @@ class _GameState extends State<Game> {
   @override
   Widget build(BuildContext context) {
     _context = context;
-    return MaterialApp(
-      title: appName,
-      color: Colors.yellow[500],
-      home: Scaffold(
-        backgroundColor: Colors.yellow[100],
-        appBar: AppBar(
-          backgroundColor: Colors.yellow[500],
-          title: Text(
-            appName,
-            style: TextStyle(color: Colors.black),
-          ),
-          actions: <Widget>[
-            IconButton(
-              icon: Icon(Icons.refresh),
-              color: Colors.black,
-              onPressed: _resetGame,
-            )
-          ],
+    return Scaffold(
+      backgroundColor: Colors.yellow[100],
+      appBar: AppBar(
+        backgroundColor: Colors.yellow[500],
+        title: Text(
+          appName,
+          style: TextStyle(color: Colors.black),
         ),
-        body: SingleChildScrollView(
-          child: Row(
-            children: <Widget>[
-              playerInformation(playerName: "Cuphead"),
-              playerInformation(playerName: "Mugman"),
-            ],
-          ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.refresh),
+            color: Colors.black,
+            onPressed: _resetGame,
+          )
+        ],
+      ),
+      body: SingleChildScrollView(
+        child: Row(
+          children: <Widget>[
+            playerInformation(playerName: "Cuphead"),
+            playerInformation(playerName: "Mugman"),
+          ],
         ),
       ),
     );
@@ -131,7 +138,7 @@ class _GameState extends State<Game> {
       } else if (_cupheadHP >= 1 && _cupheadHP <= 5) {
         _cupheadHpColor = Colors.red;
       } else {
-        showWinnerDialog(_context, "Mugman");
+        showWinnerDialog("Mugman");
         _cupheadHpColor = Colors.black;
       }
     } else {
@@ -146,7 +153,7 @@ class _GameState extends State<Game> {
       } else if (_mugmanHP >= 1 && _mugmanHP <= 5) {
         _mugmanHpColor = Colors.red;
       } else {
-        showWinnerDialog(_context, "Cuphead");
+        showWinnerDialog("Cuphead");
         _mugmanHpColor = Colors.black;
       }
     }
@@ -273,9 +280,9 @@ class _GameState extends State<Game> {
   }
 
   /// Shows Dialog with name of Winner when either of player's HP reaches 0
-  void showWinnerDialog(BuildContext context, String winner) {
+  void showWinnerDialog(String winner) {
     showDialog(
-        context: context,
+        context: _context,
         builder: (BuildContext context) => AlertDialog(
               title: Text("$winner Won"),
             ));

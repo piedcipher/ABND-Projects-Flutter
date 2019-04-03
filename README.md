@@ -8,7 +8,7 @@ Recreating :repeat: Android Basics Nanodegree :ledger: Projects :pencil: with Fl
 | # | Project | Description | Medium Post |
 | --- | --- | --- | --- |
 | 1 | [Business Card](https://github.com/piedcipher/ABND-Projects-Flutter/tree/master/%231.Business-Card/business_card) | Build a Single Screen App for a Business | [:newspaper: :page_facing_up:](https://medium.com/@piedcipher/building-abnd-project-1-single-screen-app-with-flutter-e3dd8a55f70) |
-| 2 | [Score Keeper](https://github.com/piedcipher/ABND-Projects-Flutter/tree/master/%232.Score-Keeper/score_keeper) | Build a Score Keeper to track scores of 2 Team | Coming Soon :newspaper: :page_facing_up: |
+| 2 | [Score Keeper](https://github.com/piedcipher/ABND-Projects-Flutter/tree/master/%232.Score-Keeper/score_keeper) | Build a Score Keeper to track scores of 2 Team | [:newspaper: :page_facing_up:](https://medium.com/@piedcipher/building-abnd-project-2-score-keeper-app-with-flutter-93c4e54cd589) |
 
 ---
 
@@ -44,6 +44,9 @@ This application is a score keeper app, inspired by an indie video-game - [Cuphe
 
 ## App Screenshot
 <img width="300" src="%232.Score-Keeper/score_keeper/assets/app-screenshot.png" alt="ClashOfCupheads - Score Keeper App [App Screenshot]" />
+
+## Medium Post
+<a href="https://medium.com/@piedcipher/building-abnd-project-2-score-keeper-app-with-flutter-93c4e54cd589"><img src="%232.Score-Keeper/score_keeper/assets/medium-post.png" alt="Medium Post - Feature Image" /></a>
 
 ## Credits
 | Drawable | Author | Source |

@@ -9,6 +9,9 @@ This application is a score keeper app, inspired by an indie video-game - [Cuphe
 ## App Screenshot
 <img width="300" src="assets/app-screenshot.png" alt="ClashOfCupheads - Score Keeper App [App Screenshot]" />
 
+## Medium Post
+<a href="https://medium.com/@piedcipher/building-abnd-project-2-score-keeper-app-with-flutter-93c4e54cd589"><img src="assets/medium-post.png" alt="Medium Post - Feature Image" /></a>
+
 ## Credits
 | Drawable | Author | Source |
 | --- | --- | --- |
